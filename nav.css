@@ -7,28 +7,44 @@
 #navbar{
   display: flex;
   justify-content: space-between;
-  background-color: aqua;
-  color: black;
+  background-color: white;
 }
 
 .hero_section ul {
   list-style: none;
   margin: 10px;
   display: flex;
+  
   justify-content: center;
   align-items: center;
 }
 
 .hero_section li{
-  margin: 30px;
+  margin: 10px;
 }
 
-div img{
-  height: 50px;
-  width: 50px;
+.hero_section li a{
+  color: black;
+  text-decoration: none;
+}
+
+#navbar img{
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  height: 70px;
+  width: 100px;
 }
 
 button{
   padding: 10px;
+  margin: 30px;
   justify-content: center;
+  background-color: blue;
+  color: white;
+  border: 0px;
+}
+
+.hero_section li a:hover{
+  color: blue;
 }
